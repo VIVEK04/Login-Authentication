@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #ffffff  , yellow, orangered);
+    font-family: Arial, sans-serif;
+}
+.securedPage{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.securedPage button {
+    display: block;
+    width: 150px; 
+    height: 70px;
+    margin: 0 auto;
+    
+    text-align: center;;
+    background-color: orangered; 
+    color: white;
+    border: solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+button:hover {
+    background-color:orange; 
+  }
+
+.securedPage img{
+    justify-content: center;
+    align-items: center;
+    padding-left: 145px;
+    height: 300px;
+    width: 300px;
+}
+.securedPage h1{
+    font-size: 50px;
+    margin-top: 10px;
+    padding-top: 50px;
+    padding-right: 10px;
+    align-content: center;
+    
+}

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, burlywood, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: radial-gradient(circle, white , burlywood,brown);
+    padding: 30px;
+    padding-left: 25px;
+    padding-right: 50px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    height: 230px;
+    border: solid black;
+}
+
+.container h2{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: cursive;
+    font-size: 30px;
+    
+}
+
+
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 03px;
+    height: 30px;
+    padding:5px;
+    border: white;
+    background-color:orangered;
+    color: white;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+#register, #login, #securedPage {
+    display: none;
+}
+
